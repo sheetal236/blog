@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hotel Management</title>
+</head>
+<body>
+<h1><center><marquee> Hotel Management System</marquee></center></h1>
+
+
+
+<style>
+body {
+    background-color: lightblue;
+	 background-image: url("\home\sheetal\Desktop\nh.jpg");
+	    background-repeat: no-repeat;
+    padding:35px;
+	    background-position: center;
+}
+h1 {
+    color: white;
+
+}
+p{
+position: bottom;
+    bottom: 15;
+	font-size: 155%
+}
+
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+</style>
+
+<p>
+<b>Situated in Yeosu, this hotel is close to Dolsandaegyo Bridge,<br>
+Yi Sun Shin Square, and Dolsan Park.
+Also nearby are Jinnamgwan Hall and Jasan Park.</b>
+</p>
+
+
+
+
+<ul class="tab">
+  <li><a href="" class="tablinks" id="defaultOpen"><b>Room Booking</b></a></li>
+  <li><a href="" class="tablinks"><b>Order Food</b></a></li>
+  <li><a href="" class="tablinks" ng-click="newf()"><b>Billing details</b></a></li>
+
+</ul>
+
+
+
+
+</body>
+</html>
